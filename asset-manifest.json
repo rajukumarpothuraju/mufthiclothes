@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/mufthiclothes/static/css/main.84390593.css",
+    "main.js": "/mufthiclothes/static/js/main.c77a2891.js",
+    "static/js/453.9a23db4b.chunk.js": "/mufthiclothes/static/js/453.9a23db4b.chunk.js",
+    "index.html": "/mufthiclothes/index.html",
+    "main.84390593.css.map": "/mufthiclothes/static/css/main.84390593.css.map",
+    "main.c77a2891.js.map": "/mufthiclothes/static/js/main.c77a2891.js.map",
+    "453.9a23db4b.chunk.js.map": "/mufthiclothes/static/js/453.9a23db4b.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.84390593.css",
+    "static/js/main.c77a2891.js"
+  ]
+}
