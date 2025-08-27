@@ -1,0 +1,170 @@
+*{
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+}
+
+.navbar-toggler {
+  border: none !important;
+  box-shadow: none !important;
+}
+.navbar-toggler:focus,
+.navbar-toggler:active {
+  outline: none !important;
+  box-shadow: none !important;
+}
+.offcanvas-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* vertical center */
+  align-items: center;     /* horizontal center */
+  height: 100%;
+  text-decoration: none;
+}
+.navbar-nav {
+  align-items: center; /* center nav links horizontally */
+}
+.offcanvas {
+  width: 250px !important; /* default ga 400px untundi, 250px pedha chala compact look */
+  --bs-offcanvas-width: 250px !important; /* Bootstrap 5 variable */
+}
+.headericons{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+.navbar{
+  border-bottom:1px solid rgb(113, 112, 112) ;
+  margin-bottom: 15px;
+  height: 50px;
+}
+.maindiscount{
+  margin-top: 6px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+.maindiscount h1{
+  font-size: 15px;
+  color: rgb(114, 112, 112);
+  
+}
+.discount{
+  border-bottom: 1px solid rgb(125, 123, 123);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+.headericons{
+  color: rgb(123, 121, 121);
+}
+
+/* Offcanvas Navlinks styling */
+.alllist .nav-link,        /* Bootstrap nav-link class ki */
+.alllist li a,             /* react-router Link ki */
+.alllist li button.nav-link {  /* button nav-link ki */
+  text-decoration: none;   /* underline remove cheyadam */
+  color: black;            /* color black set cheyadam */
+  font-weight: 500;        /* optional, text bold */
+}
+
+/* Hover effect */
+.alllist .nav-link:hover,
+.alllist li a:hover,
+.alllist li button.nav-link:hover {
+  color: rgb(36, 36, 36);           /* hover color kavali ante */
+  text-decoration: none;   /* hover underline kuda remove cheyadam */
+  background-color: #f0f0f0; /* optional, hover background */
+  border-radius: 5px;      /* optional, hover ki rounded effect */
+}
+
+@media (max-width: 768px) {
+  .cardsimages {
+    justify-content: center; /* Center cards on smaller screens */
+  }
+}
+.cardsimages img{
+  border-radius: 10px;
+}
+
+
+.cardsimages {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+}
+
+.card-with-text {
+  position: relative;
+  width: 250px; /* image width */
+  height: 350px; /* image height */
+}
+
+.card-with-text img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* image stretch avoid cheyadaniki */
+}
+
+.overlay-text {
+  position: absolute;
+  bottom: 10px; /* image kinda text vundali ante */
+  left: 50%;
+  transform: translateX(-50%);
+  color: white;
+  background-color: rgba(0,0,0,0.5); /* semi-transparent background */
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.locationicon{
+  height: 400px;
+  font-size: 200px;
+  color: rgb(101, 71, 71);
+  display: flex;
+  flex-direction: column;
+}
+.emailinput{
+  background-color:rgba(73, 68, 68, 0.234) ;
+  margin-top: 10px;
+  height: 400px;;
+}
+.emailinput2 input{
+  width: 300px;
+  height: 40px;
+  outline: none;
+  padding-left: 10px;
+  font-size: 20px;
+  background-color:rgb(255, 255, 255) ;
+  width: 250px;
+    border-left: 1px solid black;
+    border-radius: 10px;
+}
+.inputbtn{
+  height: 40px;
+  width: 100px;
+  margin-top: 9px;
+
+  border-left: 1px solid black;
+  outline: none;
+  background-color: rgb(255, 252, 252);
+  color: rgb(170, 168, 168);
+  border-radius: 10px;
+  font-size: 20px;
+  cursor: pointer;
+}
+.listelements{
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+}
+.text{
+  font-size: 20px;
+  font-weight: 300;
+  text-align: center;
+}
